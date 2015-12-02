@@ -1,0 +1,2 @@
+# GotoSleep
+将此项目放在Android源码中编译可以使用一个按键使系统休眠，主要测试PowerManager的goToSleep接口。
