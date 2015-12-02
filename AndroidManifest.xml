@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gotosleep"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system">
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -20,6 +21,9 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
             </intent-filter>
         </activity>
     </application>
